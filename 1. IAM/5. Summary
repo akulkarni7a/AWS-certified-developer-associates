@@ -1,0 +1,15 @@
+Recap:
+
+- IAM consists of the following:
+	- Users
+	- Groups (A way to group our users and apply policies to them collectively)
+	- Roles
+	- Policy Documents (in JSON)
+
+- IAM is universal, does not apply to regions
+- Root account is the account you used to set up the AWS account -> has complete Admin access
+- New users have no permissions when first created
+- New users are assigned Access Key and Secret Access Key
+- You can only use these keys from the command line
+- Always set up Multifactor Authentication on your root account
+- You can create and customize your own password rotation policies
